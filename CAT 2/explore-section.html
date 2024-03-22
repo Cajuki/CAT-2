@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+   <style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+       background-image: url('https://th.bing.com/th?id=OIP.I1scgx4bTN3MA-ckkS_i3wHaLG&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2');
+       background-size: cover;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    nav a.active {
+        font-weight: bold;
+    }
+    
+    main {
+        padding: 2rem;
+    }
+    
+    .explore-section {
+        text-align: center;
+    }
+    
+    .explore-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .explore-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .explore-card {
+        background-color: #759920;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        flex-basis: calc(33.333% - 2rem);
+        margin: 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
+    
+    .explore-card img {
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    .explore-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="activities.html">Activities</a>
+                <a href="explore-section.html">explore-section</a>
+                <a href="contacts.html">Contact</a>
+                <a href="about-us.html">about-us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="explore-section">
+            <h1>Explore</h1>
+            <div class="explore-cards">
+                <div class="explore-card">
+                    <img src="images/beach.jpg" alt="Beach">
+                    <h2>Beaches</h2>
+                    <p>Discover the most beautiful beaches in our region.</p>
+                    <a href="beaches.html">Explore Beaches</a>
+                </div>
+                <div class="explore-card">
+                    <img src="images/mountain.jpg" alt="Mountain">
+                    <h2>Mountains</h2>
+                    <p>Explore the breathtaking mountain ranges in our region.</p>
+                    <a href="mountains.html">Explore Mountains</a>
+                </div>
+                <div class="explore-card">
+                    <img src="images/historical.jpg" alt="Historical Site">
+                    <h2>Historical Sites</h2>
+                    <p>Discover the rich history of our region.</p>
+                    <a href="historical.html">Explore Historical Sites</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tourism Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

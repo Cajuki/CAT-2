@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <style>
+        
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('https://th.bing.com/th/id/OIP.GU8_h_vzCr7stKa4PhiTGwHaE8?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #faeeee;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+section ul li a {
+    display: block;
+    padding: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+section ul li a img {
+    width: 100%;
+    height: auto;
+}
+
+section ul li a h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+section ul li a p {
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="explore-section.html">Destinations</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="about-us.html">about-us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <marquee behaviour="scroll" direction="left">Welcome to Our Tourism Website!</marquee>
+            <p>Explore the world with us and create unforgettable memories.</p>
+            <a href="explore-section.html" class="button">Discover Destinations</a>
+        </section>
+        <section id="destinations">
+            <fieldset style="background-color: aqua; border: 1px solid aqua;color:darkcyan;">
+            <legend>Top Destinations</legend>
+            <ul>
+                <li>
+                    <a href="explore-section.html">
+                        <img src="https://th.bing.com/th/id/R.c5960174835130378a697b7743bf951a?rik=GkYvBvLTSaIs8Q&riu=http%3a%2f%2fanswersafrica.com%2fwp-content%2fuploads%2f2013%2f02%2fkilimanjaro-giraffe-1.jpg&ehk=xcRrEgc221tHcXATDMzOiewVCn5lerGnZWXYHMmOOc4%3d&risl=&pid=ImgRaw&r=0" alt="Kenya,Egypt">
+                        <h3>Kenya,Egypt,Africa</h3>
+                        <p>The continent of Love and full of culture</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="explore-section.html">
+                        <img src="https://th.bing.com/th/id/R.f569b9f4237c93bd4c86b286013c46f8?rik=8b63a5hCaDtchA&riu=http%3a%2f%2fbewitter.com%2fwp-content%2fuploads%2f2015%2f11%2fBest-Tourist-Attractions-In-America-2016-Grand-Canyon.jpg&ehk=LAjFdBYuZlrb8%2fGVhHpDHHjQzbypEVtt48mlFy97kqI%3d&risl=&pid=ImgRaw&r=0" alt="USA">
+                        <h3>USA,North America</h3>
+                        <p>The continent that Never Sleeps</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="explore-section.html">
+                        <img src="https://th.bing.com/th/id/R.343da7997dfcb27cb59ef03f27784a0c?rik=IEpnp%2baRMZNjMA&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Japan">
+                        <h3>Japan,Asia</h3>
+                        <p>The Land of the Rising Sun</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="activities">
+            </fieldset>
+            <fieldset style="background-color: aqua; border: 1px solid aqua;color:darkcyan;">
+            <legend>Activities</legend>
+            <ul>
+                <li>
+                    <a href="historical.html">
+                        <img src="https://www.telegraph.co.uk/content/dam/Travel/Cruise/Ocean/CROP-Rome-Getty.jpg?imwidth=680" alt="Hiking">
+                        <h3>discoring fossils and taking pictures of ancient tools</h3>
+                        <p>Explore the great outdoors and enjoy breathtaking views of fossils and other sites placed BC and AC.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="beaches.html">
+                        <img src="https://th.bing.com/th/id/OIP.bemTBKnqmSSb2mF0eBAiagAAAA?pid=ImgDet&w=170&h=226&c=7" alt="Snorkeling">
+                        <h3>boat racing,diving and collecting of shells </h3>
+                        <p>Discover the beauty of the underwater world.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="mountains.html">
+                        <img src="https://th.bing.com/th/id/OIP.6AnBWiCfKD-HueplmBxHcgHaE8?rs=1&pid=ImgDetMain" alt="Skiing">
+                        <h3>Skiing,mountain climbing,hiking</h3>
+                        <p>Experience the thrill of skiing down the slopes.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </fieldset>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>We are a team of travel enthusiasts who are passionate about sharing the beauty of the world with others. Our mission is to provide high-quality travel experiences that create unforgettable memories.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tourism Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+       
